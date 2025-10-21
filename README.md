@@ -22,7 +22,7 @@ This project is part of **Stage 1** of the Frontend Wizards challenge. It extend
 
 ## Demo
 
-**Live Demo:** 
+**Live Demo:** https://luponetn.github.io/frontend-stage-1/
 
 ---
 
@@ -61,7 +61,7 @@ This project is part of **Stage 1** of the Frontend Wizards challenge. It extend
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/frontend-wizards-stage1.git
+git clone https://github.com/your-username/frontend-stage-1.git
 
-cd frontend-wizards-stage1
+cd frontend-stage-1
 
