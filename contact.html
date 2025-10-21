@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <nav>
+      <button>
+        <a href="./index.html">Home</a>
+      </button>
+      <button>
+        <a href="./about.html">About me</a>
+      </button>
+    </nav>
+    <main class="profile-card">
+      <form id="contact">
+  <label for="fullname">
+    Full Name
+    <input type="text" id="fullname" data-testid="test-contact-name" aria-describedby="error-fullname" placeholder="John Doe" />
+    <span id="error-fullname" data-testid="test-contact-error-fullname"></span>
+  </label>
+
+  <label for="email">
+    Email
+    <input type="email" id="email" data-testid="test-contact-email" aria-describedby="error-email" placeholder="name@example.com" />
+    <span id="error-email" data-testid="test-contact-error-email"></span>
+  </label>
+
+  <label for="subject">
+    Subject
+    <input type="text" id="subject" data-testid="test-contact-subject" aria-describedby="error-subject" placeholder="Your subject" />
+    <span id="error-subject" data-testid="test-contact-error-subject"></span>
+  </label>
+
+  <label for="message">
+    Message
+    <textarea id="message" rows="5" data-testid="test-contact-message" aria-describedby="error-message" placeholder="Enter your message (min. 10 characters)"></textarea>
+    <span id="error-message" data-testid="test-contact-error-message"></span>
+  </label>
+
+  <button id="btn" type="button" data-testid="test-contact-submit">Submit</button>
+  <p id="success" data-testid="test-contact-success"></p>
+</form>
+
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

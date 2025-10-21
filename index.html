@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile Card</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <button>
+        <a href="./contact.html">Contact Us</a>
+      </button>
+      <button>
+        <a href="./about.html">About me</a>
+      </button>
+    </nav>
+    <main>
+      <article class="profile-card" data-testid="test-profile-card">
+        <section class="profile-header">
+          <figure class="avatar">
+            <img
+              src="me.jpg"
+              alt="Lupo Oluwatobi's Avatar"
+              data-testid="test-user-avatar"
+            />
+          </figure>
+          <header class="user-info">
+            <h2 data-testid="test-user-name">Lupo Oluwatobi</h2>
+            <p data-testid="test-user-bio">
+              Frontend developer passionate about building accessible and
+              responsive web applications.
+            </p>
+            <p>
+              Current Time:
+              <span id="current-time" data-testid="test-user-time"></span>
+            </p>
+          </header>
+        </section>
+
+        <section class="profile-details">
+          <div class="hobbies">
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+              <li>Coding</li>
+              <li>Gaming</li>
+              <li>Music</li>
+            </ul>
+          </div>
+
+          <div class="dislikes">
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+              <li>Slow Internet</li>
+              <li>Cooking</li>
+              <li>Going Outside</li>
+            </ul>
+          </div>
+        </section>
+
+        <footer class="profile-footer">
+          <nav class="social-links" data-testid="test-user-social-links">
+            <a
+              href="https://twitter.com/@oluwatobii_io"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-twitter"
+              >Twitter</a
+            >
+            <a
+              href="https://linkedin.com/in/daniel-lupo-o"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-linkedin"
+              >LinkedIn</a
+            >
+            <a
+              href="https://github.com/luponetn"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-github"
+              >GitHub</a
+            >
+          </nav>
+        </footer>
+      </article>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
